@@ -1,0 +1,115 @@
+/* Updated CSS */
+.bars-main {
+  background-color:  rgb(191 194 255 / 80%);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 2%;
+}
+.chart-wrapper {
+    position:inherit;
+    right: 60%;
+  top: 40%;
+    margin-top: 10px; 
+
+}
+
+.heading {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+.Progress-heading{
+  margin-left: 25%;
+}
+
+.bars-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.bar-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.module-name {
+  width: 150px;
+  margin-right: 20px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.progress-bar {
+  flex: 1;
+  padding-left: 40px;
+}
+
+.bar-container {
+  width: 92%; 
+}
+
+.bar {
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ddd;
+}
+.selected-module {
+  background-color:  hsl(292.95deg 82.15% 63.45% / 33%);
+  color: #3163f8;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  height: max-content;
+
+}
+.percentage {
+  padding: 5px 10px;
+  color: #265bf9;
+  font-weight: bold;
+}
+
+.percentage2{
+  padding: 0px 0px;
+  color: #080404;
+
+  font-weight: bold;
+}
+
+.arrow-button {
+  position: absolute;
+  right: 10px; /* Adjusted positioning */
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #3163f8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.arrow-button:hover {
+  background-color: #1a42aa;
+}
+
+
+
+@media (max-width: 600px) {
+  .module-name {
+    width: auto;
+    margin-right: 10px;
+    font-size: 1rem;
+  }
+
+  .progress-bar {
+    padding-left: 50px;
+  }
+}
+/* 
+.canvasjs-chart-canvas{
+  display: flex !important;
+  justify-content: center !important;
+} */
