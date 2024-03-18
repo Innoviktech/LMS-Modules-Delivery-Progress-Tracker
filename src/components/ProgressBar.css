@@ -1,17 +1,17 @@
 /* Updated CSS */
 .bars-main {
-  background-color:  rgb(191 194 255 / 80%);
+  background-color: rgb(191 194 255 / 80%);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   margin-top: 2%;
 }
-.chart-wrapper {
-    position:inherit;
-    right: 60%;
-  top: 40%;
-    margin-top: 10px; 
 
+.chart-wrapper {
+  position: inherit;
+  right: 60%;
+  top: 40%;
+  margin-top: 10px;
 }
 
 .heading {
@@ -19,7 +19,8 @@
   color: #333;
   margin-bottom: 30px;
 }
-.Progress-heading{
+
+.Progress-heading {
   margin-left: 25%;
 }
 
@@ -48,38 +49,38 @@
 }
 
 .bar-container {
-  width: 92%; 
+  width: 92%;
 }
 
 .bar {
   height: 20px;
   border-radius: 10px;
   overflow: hidden;
-  background-color: #ddd;
 }
-.selected-module {
-  background-color:  hsl(292.95deg 82.15% 63.45% / 33%);
-  color: #3163f8;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  height: max-content;
 
+.selected-module {
+  background-color: hsl(292.95deg 82.15% 63.45% / 33%);
+  color: #3163f8;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  height: auto;
 }
+
 .percentage {
   padding: 5px 10px;
   color: #265bf9;
   font-weight: bold;
 }
 
-.percentage2{
+.percentage2 {
   padding: 0px 0px;
   color: #080404;
-
   font-weight: bold;
 }
 
 .arrow-button {
   position: absolute;
-  right: 10px; /* Adjusted positioning */
+  right: 10px;
+  /* Adjusted positioning */
   top: 50%;
   transform: translateY(-50%);
   background-color: #3163f8;
@@ -95,7 +96,9 @@
   background-color: #1a42aa;
 }
 
-
+.fullchart-container {
+  width: 100%;
+}
 
 @media (max-width: 600px) {
   .module-name {
@@ -108,8 +111,3 @@
     padding-left: 50px;
   }
 }
-/* 
-.canvasjs-chart-canvas{
-  display: flex !important;
-  justify-content: center !important;
-} */
