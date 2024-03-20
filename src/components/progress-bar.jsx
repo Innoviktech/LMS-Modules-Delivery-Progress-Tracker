@@ -60,23 +60,23 @@ const ProgressBar = () => {
                   <div className="progress-bar">
                     <div className="bar-container">
                       <div className="bar" style={{ width: `${module.overall_percentage}%`, backgroundColor: colors[index] }}>
-                        <span className="percentage2">{`${module.overall_percentage}%`}</span>
+                        {/* <span className="percentage2">{`${module.overall_percentage}%`}</span> */}
                       </div>
                     </div>
                   </div>
                 </Accordion.Header>
                 <Accordion.Body>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                    <div style={{ width: '70%' }}>
+                    <div style={{ width: '100%' }}>
                       <div className="fullchart-container">
                       <Fullchart moduleId={module.module_id} moduleName={module.module_name} colors={colors} />
 
                       </div>
                     </div>
-                    <div style={{ width: '30%', display: 'flex', alignItems: 'center' }}>
+                    {/* <div style={{ width: '30%', display: 'flex', alignItems: 'center' }}>
                      <strong style={{ marginRight: '15px'}}>Remarks Status:</strong> <span style={{ marginRight: '5px', backgroundColor: getStatusColor(module.remarks), width: '10px', height: '10px', borderRadius: '50%', display: 'inline-block' }}></span>
                        {module.remarks ? module.remarks : "No remarks"}
-                    </div>
+                    </div> */}
                   </div>
                 </Accordion.Body>
               </Accordion.Item>
