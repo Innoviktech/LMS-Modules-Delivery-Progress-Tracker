@@ -66,7 +66,7 @@ const ProgressBar = () => {
                   </div>
                 </Accordion.Header>
                 <Accordion.Body>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                  <div style={{ display: 'flex', alignItems: 'center' }}>
                     <div style={{ width: '100%' }}>
                       <div className="fullchart-container">
                       <Fullchart moduleId={module.module_id} moduleName={module.module_name} colors={colors} />
